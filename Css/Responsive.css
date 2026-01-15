@@ -206,4 +206,13 @@
   .btn {
     margin-top: 10px;
   }
+
+  /* Featured products at one place Section  */
+  #featured_area .inners {
+    display: flex;
+    flex-direction: column;
+  }
+  #featured_area .right_featured {
+    width: 100%;
+  }
 }
