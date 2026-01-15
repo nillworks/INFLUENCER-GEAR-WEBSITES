@@ -48,6 +48,10 @@
   .btn {
     margin-top: 10px;
   }
+
+  /* Featured products at one place Section  */
+  #featured_area .inners {
+  }
 }
 
 /* Tablet Device */
@@ -146,6 +150,12 @@
   }
   .btn {
     margin-top: 10px;
+  }
+
+  /* Featured products at one place Section  */
+  #featured_area .inners {
+    display: flex;
+    flex-direction: column;
   }
 }
 
