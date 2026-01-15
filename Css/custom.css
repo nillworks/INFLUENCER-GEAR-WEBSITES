@@ -35,6 +35,7 @@ img {
 .container {
   margin: 0 auto;
   max-width: 1360px;
+  padding: 8px;
 }
 .inner {
   display: flex;
@@ -68,4 +69,8 @@ img {
 }
 .btn img {
   color: pink;
+}
+
+.hiden {
+  display: none;
 }
