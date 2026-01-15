@@ -31,14 +31,139 @@
 }
 
 /* Navigation Menu Style */
+#NavigationMenu {
+  padding-top: 38px;
+}
+#NavigationMenu .logo h2 {
+  font-size: 24px;
+  text-transform: capitalize;
+}
 
+nav ul li a {
+  font-size: 16px;
+  font-weight: var(--semiboldFont);
+  color: var(--headingColor);
+}
+
+#NavigationMenu .icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.icon img:nth-child(1) {
+  width: 20px;
+}
+.icon img:nth-child(2) {
+  width: 20px;
+}
 /* Hero Header Style */
+#hero_area {
+  padding: 50px 0;
+}
+#hero_area .hero_left_content {
+  width: 582px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.btn_cta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border-radius: 41px;
+  background-color: var(--btnPrimary);
+  max-width: max-content;
+}
+.btn_cta .custom_btn {
+  color: var(--whiteColor);
+  font-weight: bold;
+}
+.hero_left_content h1 {
+  font-size: 52px;
+  font-weight: bold;
+}
+.hero_left_content h6 {
+  font-size: 16px;
+  font-weight: var(--semiboldFont);
+}
+#hero_area .hero_right_content {
+  background: url('../images/Circle\ design.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
 
 /* Main Section  */
 
-/*  */
+/* Company Brand Logo */
+#Company_brand_logo .logo_brand_log {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  gap: 60px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
 
-/*  */
+/* Popular Collection Cards Section */
+#Cards_area_popular {
+  padding: 100px 10px;
+}
+#Cards_area_popular .title {
+  text-align: center;
+  padding: 60px;
+}
+.title h2 {
+  font-size: 28px;
+}
+
+#Cards_area_popular .parent_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 339px);
+  justify-items: center;
+  gap: 30px;
+}
+.parent_cards .child_cards {
+  padding: 14px 17px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.child_cards .details_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.details_cards h2 {
+  font-size: 28px;
+  font-weight: var(--mediumFont);
+  color: black;
+}
+.details_cards p {
+  color: var(--paragraphColor);
+  font-size: 14px;
+}
+.details_cards span {
+  font-size: 24px;
+}
+.details_cards .card_rating span {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--paragraphColor);
+}
+#Cards_area_popular .btn {
+  display: flex;
+  justify-content: end;
+}
+.btn a {
+  color: var(--primaryColor);
+}
+/* */
 
 /*  */
 

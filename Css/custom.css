@@ -18,6 +18,8 @@ h4,
 h5,
 h6 {
   font-size: 20px;
+  font-weight: bold;
+  color: var(--headingColor);
 }
 p,
 span {
@@ -41,4 +43,24 @@ img {
 }
 .paddingXl {
   padding: 130px 4px;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.starFlex {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+#Cards_area_popular .btn {
+  display: flex;
+  justify-content: end;
+}
+.btn img {
+  color: pink;
 }
