@@ -164,6 +164,39 @@ nav ul li a {
   color: var(--primaryColor);
 }
 /* */
+#featured_area {
+  padding: 100px 0;
+}
+#featured_area .right_featured {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.right_featured h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+}
+.right_featured p {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--paragraphColor);
+}
+.right_featured .btns {
+  background-color: var(--btnPrimary);
+  max-width: max-content;
+  padding: 10px 24px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.btns a {
+  color: var(--whiteColor);
+  font-weight: bold;
+  font-size: 16px;
+}
 
 /*  */
 

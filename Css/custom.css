@@ -57,9 +57,14 @@ img {
   align-items: center;
 }
 
-#Cards_area_popular .btn {
+.inners {
   display: flex;
-  justify-content: end;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-around;
+}
+.btn a {
+  color: var(--);
 }
 .btn img {
   color: pink;
