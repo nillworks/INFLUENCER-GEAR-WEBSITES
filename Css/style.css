@@ -121,7 +121,8 @@ nav ul li a {
 #Cards_area_popular .parent_cards {
   display: grid;
   grid-template-columns: repeat(3, 339px);
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
 }
 .parent_cards .child_cards {
@@ -163,7 +164,8 @@ nav ul li a {
 .btn a {
   color: var(--primaryColor);
 }
-/* */
+
+/* Featured products at one place Section */
 #featured_area {
   padding: 100px 0;
 }
@@ -198,8 +200,29 @@ nav ul li a {
   font-size: 16px;
 }
 
-/*  */
-
-/*  */
-
 /* Footer Section Style */
+#footer_area {
+  background-color: var(--srcBgColor);
+}
+#footer_area .footer_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_content {
+  padding: 50px 0;
+  color: var(--whiteColor);
+  text-align: center;
+}
+.footer_content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--whiteColor);
+}
+.footer_content .icons_medea {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
