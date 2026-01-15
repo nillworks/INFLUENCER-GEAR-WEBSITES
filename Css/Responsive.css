@@ -1,0 +1,17 @@
+/* Responsive layout Style */
+
+/* Normal Mobile Device */
+@media only screen and (max-width: 640px) {
+}
+
+/* Big Mobile Device */
+@media only screen and (max-width: 768px) {
+}
+
+/* Tablet Device */
+@media only screen and (max-width: 1024px) {
+}
+
+/* Laptop Device  */
+@media only screen and (max-width: 1280px) {
+}

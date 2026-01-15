@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 20px;
+}
+p,
+span {
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom Class Style */
+.container {
+  margin: 0 auto;
+  max-width: 1360px;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.paddingXl {
+  padding: 130px 4px;
+}
